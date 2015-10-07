@@ -26,6 +26,7 @@ h1{
   text-align: center;
   display: block;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 .hero .hero-text{
@@ -35,6 +36,8 @@ h1{
   text-align: center;
   display: block;
   margin-bottom: 30px;
+  font-weight: lighter;
+  max-width: 280px;
 }
 
 .hero .hero-button{
