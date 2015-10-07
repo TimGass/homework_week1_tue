@@ -13,6 +13,30 @@ h1{
   color: green;
 }
 
+header .wordpress-logo{
+  height: 30px;
+  width: 7%;
+  background-color: #fff;
+  margin: 10px 15px;
+  float: left;
+}
+
+header .wordpress{
+  height: 30px;
+  width: 25%;
+  background-color: #fff;
+  margin: 10px 0px;
+  float: left;
+}
+
+header .login{
+  background-color: #0070A4;
+  height: 50px;
+  width: 16.5%;
+  border: none;
+  float: right;
+}
+
 .hero .hero-background{
   padding-top: 165px;
   height:1100px;
@@ -48,29 +72,6 @@ h1{
   margin: 0 auto 210px auto;
 }
 
-.hero .surprise{
-  font-family: fantasy, cursive, sans-serif;
-  font-size: 19px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: lime;
-
-}
-.hero .surprise a{
-  text-decoration: none;
-  color: lime;
-}
-.hero .surprise a:hover{
-  text-decoration: none;
-  color: red;
-}
-
-.hero .surprise a:active{
-  color: magenta, violet;
-  text-decoration: line-through;
-}
-
 .hero .hero-scroll{
   height: 20px;
   width: 10%;
@@ -83,6 +84,7 @@ h1{
   width: 80%;
   background-color: #FFFFFF;
   margin: 0 auto 30px auto;
+  overflow: auto;
 }
 
 .hero-info .hero-info-box2{
@@ -99,13 +101,31 @@ h1{
   margin: 0 auto 30px auto;
 }
 
+.hero .hero-info .hero-info-box-shadebox1{
+  height: 60px;
+  width: 15%;
+  background-color: #616E7F;
+  float: left;
+  margin: 0px;
+  margin-top: 10px;
+  display: block;
+}
+
+.hero .hero-info .hero-info-box-shadebox2{
+  height: 60px;
+  width: 81%;
+  background-color: #616E7F;
+  float: right;
+  margin: 0px 4px 10px 0px;
+}
+
 .info .info-description-background{
   height: 190px;
   background-color: #E8F0F5;
 }
 
 .info .info-background{
-  height:1255px;
+  height:1500px;
   background-color: #D1D3D7;
   padding-top: 30px;
 }
@@ -152,6 +172,30 @@ h1{
   margin: 30px auto;
 }
 
+.info .info-box-headerbox{
+  height: 60px;
+  width: 14.25%;
+  margin: 20px 0px 10px 42.875%;
+  background-color: #C7D2D8;
+  float: left;
+}
+
+.info .info-box-articlebox{
+  height: 25px;
+  width: 93%;
+  margin: 0px 0px 15px 3.5%;
+  background-color: #C7D2D8;
+  float: left;
+}
+
+.info .info-box-paragraphbox{
+  height: 50px;
+  width: 93%;
+  margin: 0px 0px 0px 3.5%;
+  background-color: #C7D2D8;
+  float: left;
+}
+
 .action .action-background{
   height: 170px;
   background-color: #E8F0F5;
@@ -193,4 +237,8 @@ h1{
   width: 30%;
   background-color: #FFFFFF;
   margin: 0 auto;
+}
+
+.closer .closer-logo-box .logo-name{
+  text-indent: -9999999px;
 }
