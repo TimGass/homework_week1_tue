@@ -1,12 +1,13 @@
+
 *{
   box-sizing: border-box;
 }
-
 
 header .header-background{
   height: 50px;
   background-color: #118BC0;
 }
+
 h1{
   font-family: fantasy, Arial;
   font-size: 40px;
