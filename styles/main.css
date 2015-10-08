@@ -24,9 +24,19 @@ header .wordpress-logo{
 header .wordpress{
   height: 30px;
   width: 25%;
-  background-color: #fff;
+  background-color: #118BC0;
   margin: 10px 0px;
   float: left;
+  font-family: sans-serif;
+  color: #FFF;
+  display: block;
+  margin: 15px 0px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 17px;
+}
+header span.lighter{
+  color: #9DCEE4;
 }
 
 header .login{
@@ -35,6 +45,13 @@ header .login{
   width: 16.5%;
   border: none;
   float: right;
+  font-family: sans-serif;
+  color: #FFF;
+  font-size: 12px;
+}
+
+header .login:focus{
+  outline:none;
 }
 
 .hero .hero-background{
@@ -64,12 +81,21 @@ header .login{
   max-width: 280px;
 }
 
-.hero .hero-button{
+.hero button.hero-button{
   height: 70px;
   width: 50%;
   background-color: #118BC0;
   border: 10px solid #212934;
+  display: block;
   margin: 0 auto 210px auto;
+  font-weight: normal;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: #FFF;
+}
+
+.hero button.hero-button:focus{
+  outline: none;
 }
 
 .hero .hero-scroll{
@@ -81,92 +107,151 @@ header .login{
 
 .hero-info .hero-info-box1{
   height: 70px;
-  width: 80%;
-  background-color: #FFFFFF;
+  width: 65%;
+  background:none;
   margin: 0 auto 30px auto;
   overflow: auto;
 }
 
 .hero-info .hero-info-box2{
   height: 70px;
-  width: 80%;
-  background-color: #FFFFFF;
+  width: 65%;
+  background:none;
   margin: 0 auto 30px auto;
 }
 
 .hero-info .hero-info-box3{
   height: 70px;
-  width: 80%;
-  background-color: #FFFFFF;
+  width: 65%;
+  background:none;
   margin: 0 auto 30px auto;
 }
 
 .hero .hero-info .hero-info-box-shadebox1{
   height: 60px;
-  width: 15%;
-  background-color: #616E7F;
+  width: 17.5%;
+  background: #FFF;
   float: left;
   margin: 0px;
+  margin-right: 0px;
   margin-top: 10px;
   display: block;
 }
 
 .hero .hero-info .hero-info-box-shadebox2{
   height: 60px;
-  width: 81%;
-  background-color: #616E7F;
+  width: 80%;
+  background:none;
   float: right;
   margin: 0px 4px 10px 0px;
+}
+
+.hero .hero-info h1.line1{
+  font-family: sans-serif;
+  color: #FFF;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.hero .hero-info p.line2{
+  font-family: sans-serif;
+  color: #D5D6D7;
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 5px;
 }
 
 .info .info-description-background{
   height: 190px;
   background-color: #E8F0F5;
+  padding: 25px;
+}
+
+.info .info-description-background h1.info-description-text{
+  font-family: sans-serif;
+  color: #314156;
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
+}
+
+.info .info-description-text div.whitespace{
+  margin: 10px 0px;
+}
+
+.info div.whitespace{
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+}
+
+.info h1.info-heading{
+  font-family: sans-serif;
+  color: #426277;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
+}
+
+.info .info-text{
+  font-family: sans-serif;
+  color: #4B4B4C;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
 }
 
 .info .info-background{
-  height:1500px;
+  height:1680px;
   background-color: #D1D3D7;
   padding-top: 30px;
 }
 
 .info .info-box1{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
 }
 
 .info .info-box2{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
 }
 
 .info .info-box3{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
 }
 
 .info .info-box4{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
 }
 
 .info .info-box5{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
 }
 
 .info .info-box6{
-  height:210px;
+  height:240px;
   width: 97%;
   background-color: #FFFFFF;
   margin: 30px auto;
@@ -184,7 +269,7 @@ header .login{
   height: 25px;
   width: 93%;
   margin: 0px 0px 15px 3.5%;
-  background-color: #C7D2D8;
+  background: none;
   float: left;
 }
 
@@ -192,21 +277,42 @@ header .login{
   height: 50px;
   width: 93%;
   margin: 0px 0px 0px 3.5%;
-  background-color: #C7D2D8;
+  background:none;
   float: left;
+  text-align: center;
+  color: #4B4B4C;
 }
 
 .action .action-background{
   height: 170px;
   background-color: #E8F0F5;
-  padding-top: 100px;
+  padding-top:20px;
+  width: 100%;
+  color: #314156;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  display: block;
+  float: left;
+  text-align: center;
 }
 
-.action .action-button{
+.action, footer{
+  overflow: auto;
+}
+.action button.action-button{
   width: 45%;
   height: 50px;
   background-color: #118BC0;
-  margin: 0 auto;
+  margin: 50px auto;
+  border: none;
+  font-family: sans-serif;
+  color: #FFF;
+  font-size: 22px;
+}
+
+.action button.action-button:focus{
+  outline: none;
 }
 
 .closer .closer-background{
@@ -242,3 +348,5 @@ header .login{
 .closer .closer-logo-box .logo-name{
   text-indent: -9999999px;
 }
+
+  /*box-shadow: 0px 0px 0px 10px #202831*/
