@@ -21,6 +21,11 @@ header .wordpress-logo{
   float: left;
 }
 
+header .wordpress-logo img{
+  height: 30px;
+  width: 100%;
+}
+
 header .wordpress{
   height: 30px;
   width: 25%;
@@ -55,9 +60,9 @@ header .login:focus{
 }
 
 .hero .hero-background{
-  padding-top: 165px;
-  height:1100px;
-  background-color: #344051;
+  margin-top: 0px;
+  height:1130px;
+  background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true);
 }
 
 .hero .hero-title{
@@ -66,7 +71,8 @@ header .login:focus{
   font-size: 30px;
   text-align: center;
   display: block;
-  margin-bottom: 20px;
+  padding-top: 160px;
+  margin-bottom: 30px;
   font-weight: normal;
 }
 
@@ -79,20 +85,24 @@ header .login:focus{
   margin-bottom: 30px;
   font-weight: lighter;
   max-width: 280px;
+  margin-bottom: 40px;
 }
 
 .hero button.hero-button{
-  height: 70px;
+  height: 50px;
   width: 50%;
   background-color: #118BC0;
-  border: 10px solid #212934;
+  border: none;
+  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, .3);
   display: block;
-  margin: 0 auto 210px auto;
+  margin: 0 auto 240px auto;
   font-weight: normal;
   font-size: 22px;
   font-family: sans-serif;
   color: #FFF;
+
 }
+
 
 .hero button.hero-button:focus{
   outline: none;
@@ -130,12 +140,18 @@ header .login:focus{
 .hero .hero-info .hero-info-box-shadebox1{
   height: 60px;
   width: 17.5%;
-  background: #FFF;
+  background: none;
   float: left;
   margin: 0px;
   margin-right: 0px;
   margin-top: 10px;
   display: block;
+
+}
+
+.hero .hero-info .hero-info-box-shadebox1 img{
+  height: 60px;
+  width: 100%;
 }
 
 .hero .hero-info .hero-info-box-shadebox2{
@@ -257,12 +273,20 @@ header .login:focus{
   margin: 30px auto;
 }
 
-.info .info-box-headerbox{
-  height: 60px;
+.info .info-box-imagebox{
+  height: 65px;
   width: 14.25%;
   margin: 20px 0px 10px 42.875%;
-  background-color: #C7D2D8;
+  background-color: #D1D3D7;
+  border-radius: 100%;
   float: left;
+}
+
+.info .info-box-imagebox img{
+  height: 50%;
+  width: 50%;
+  margin: 25% 25% 0 0;
+  float: right;
 }
 
 .info .info-box-articlebox{
@@ -345,8 +369,11 @@ header .login:focus{
   margin: 0 auto;
 }
 
+.closer .closer-logo-box img{
+  height: 25px;
+  width: 100%;
+}
+
 .closer .closer-logo-box .logo-name{
   text-indent: -9999999px;
 }
-
-  /*box-shadow: 0px 0px 0px 10px #202831*/
