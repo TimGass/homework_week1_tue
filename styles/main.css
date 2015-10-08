@@ -283,9 +283,9 @@ header .login:focus{
 }
 
 .info .info-box-imagebox img{
-  height: 50%;
+  height: 32.25px;
   width: 50%;
-  margin: 25% 25% 0 0;
+  margin: 20px  25% 0 0;
   float: right;
 }
 
@@ -333,6 +333,7 @@ header .login:focus{
   font-family: sans-serif;
   color: #FFF;
   font-size: 22px;
+  margin: 50px 25%;
 }
 
 .action button.action-button:focus{
